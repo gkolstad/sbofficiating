@@ -1,0 +1,152 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: verdana, arial, helvetica, sans-serif;
+	color: #505050;
+	background-color: #336699;
+	text-align: center;
+	background-image:url(vilma.gif);
+	background-repeat:repeat;
+	background-attachment:fixed;
+	overflow:scroll;
+	}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:  #444;
+	outline: none;
+	}
+a:visited {
+	color:  #ccc;
+	}
+a:active {
+	color:  #ccc;
+	}
+a:hover {
+	color: #ccc;
+	text-decoration: underline;
+	}
+.ahem {
+	display: none;
+	}
+strong, b {
+	font-weight: bold;
+	}
+p {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
+	
+hr {
+  border: 1px;
+  width: 95%;
+  height:1px;
+  background-color:#aaaaaa;
+}	
+
+img.main {
+	border: 1px solid #aaa;
+}
+
+ul {
+	font-size:12px;
+}
+
+#bottomRight {
+ 	width:600px;
+ 	background-color:#ff99ff;
+	padding:10px;
+		border: 1px solid #aaa;
+
+
+}
+
+#bottomLeft {
+	width:650px;
+	background-color: #eeeeee;
+	padding:20px;
+		font-size: 12px;
+}
+	
+
+/* weird ie5win bug: all line-height to font-size ratios must agree or box gets pushed around. UPDATE: this has turned out to be very rare. my current recommendation is IGNORE this warning. at the moment i'm leaving it in only in case the issue turns up again. possibly the original bug in march 2001 was caused by an unusual combination of factors, although this solved it at the time.*/
+
+h1 {
+	font-size: 20px;
+	line-height: 44px;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h2 {
+	font-size: 18px;
+	line-height: 40px;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h3 {
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	}
+h4 {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h5 {
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+h6 {
+	font-size: 10px;
+	line-height: 18px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+
+.nowrap {
+	white-space: nowrap;
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	}
+.tiny {
+	font-size: 9px;
+	line-height: 16px;
+	margin-top: 15px;
+	margin-bottom: 5px; 
+	}
+#content {
+	padding: 20px;
+	padding-bottom:0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	background: white;
+	border: 2px solid #aaaaaa;
+	text-align:left;
+	width: 800px; 
+	}
+	
+#contenttext {
+	padding: 60px;
+	padding-top:10px;
+	}
+
+pre {
+	font-size: 12px;
+	line-height: 22px;
+	margin-top: 20px;
+	margin-bottom: 10px; 
+	}
