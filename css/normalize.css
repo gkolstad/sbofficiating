@@ -429,6 +429,10 @@ th {
 
 /* Custom Additions
    ========================================================================== */
+   .sb-title-cont {
+    text-align: center;
+   }
+
    .sb-title {
     font-family: 'Parisienne', cursive;
     font-size: 6.5vw;
@@ -437,6 +441,11 @@ th {
 
    .section1 {
      background-image: url('../images/vilma.gif');
+   }
+
+   .photoby {
+     color: black;
+     font-size: .75rem;
    }
 
    .section2 {
