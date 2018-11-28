@@ -474,7 +474,7 @@ th {
    }
    
    .section1 {
-     margin-top: -1.5rem;
+     /* margin-top: -1.5rem; */
    }
    .section2 {
     background-color: aliceblue;
